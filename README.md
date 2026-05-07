@@ -2,7 +2,9 @@
 
 ## Membres de l’équipe
 - Djenabou Diallo
-- Ajouter les autres membres ici
+- Victor Chanel
+- Helmi
+- Mehdi
 
 ---
 
