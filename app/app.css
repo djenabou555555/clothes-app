@@ -4,3 +4,32 @@
 Button.-primary {
   font-size: 18;
 }
+
+.card {
+    background-color: #e9e2e2;
+    border-radius: 8;
+    padding: 16;
+    margin: 8 0;
+    border-width: 1;
+    border-color: #f1eeee;
+}
+
+.h1 {
+    font-size: 24;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card Label {
+    margin-bottom: 8;
+}
+
+.card Button {
+    margin-top: 12;
+    background-color: #af2ca9;
+    color: rgb(228, 228, 228);
+    border-radius: 4;
+}

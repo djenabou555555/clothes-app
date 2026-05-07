@@ -1,0 +1,47 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <ActionBar title="Clothes App">
+        <ActionItem tap="goToProfile" ios.position="right" android.position="actionBar">
+            <Label text="Profile" />
+        </ActionItem>
+        <ActionItem tap="logout" ios.position="right" android.position="actionBar">
+            <Label text="Logout" />
+        </ActionItem>
+    </ActionBar>
+    <ScrollView>
+        <StackLayout padding="20" spacing="20">
+            <Label text="Welcome to Clothes App" fontSize="24" horizontalAlignment="center" />
+
+            <!-- T-Shirt -->
+            <GridLayout rows="auto, auto, auto" columns="*, auto" class="card">
+                <Label row="0" col="0" text="T-Shirt" fontSize="18" fontWeight="bold" />
+                <Label row="0" col="1" text="$25" fontSize="16" color="green" />
+                <Label row="1" col="0" colSpan="2" text="Comfortable cotton t-shirt" />
+                <Button row="2" col="0" colSpan="2" text="View" tap="viewItem" />
+            </GridLayout>
+
+            <!-- Hoodie -->
+            <GridLayout rows="auto, auto, auto" columns="*, auto" class="card">
+                <Label row="0" col="0" text="Hoodie" fontSize="18" fontWeight="bold" />
+                <Label row="0" col="1" text="$45" fontSize="16" color="green" />
+                <Label row="1" col="0" colSpan="2" text="Warm and stylish hoodie" />
+                <Button row="2" col="0" colSpan="2" text="View" tap="viewItem" />
+            </GridLayout>
+
+            <!-- Jeans -->
+            <GridLayout rows="auto, auto, auto" columns="*, auto" class="card">
+                <Label row="0" col="0" text="Jeans" fontSize="18" fontWeight="bold" />
+                <Label row="0" col="1" text="$60" fontSize="16" color="green" />
+                <Label row="1" col="0" colSpan="2" text="Classic blue jeans" />
+                <Button row="2" col="0" colSpan="2" text="View" tap="viewItem" />
+            </GridLayout>
+
+            <!-- Sneakers -->
+            <GridLayout rows="auto, auto, auto" columns="*, auto" class="card">
+                <Label row="0" col="0" text="Sneakers" fontSize="18" fontWeight="bold" />
+                <Label row="0" col="1" text="$80" fontSize="16" color="green" />
+                <Label row="1" col="0" colSpan="2" text="Comfortable running sneakers" />
+                <Button row="2" col="0" colSpan="2" text="View" tap="viewItem" />
+            </GridLayout>
+        </StackLayout>
+    </ScrollView>
+</Page>

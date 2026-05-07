@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <ActionBar title="Profile">
+        <ActionItem tap="goBack" ios.position="left" android.position="actionBar">
+            <Label text="Back" />
+        </ActionItem>
+    </ActionBar>
+    <StackLayout padding="20" spacing="15">
+        <Label text="My Profile" fontSize="24" horizontalAlignment="center" />
+
+        <ActivityIndicator id="loadingIndicator" busy="false" visibility="collapsed" />
+
+        <Label text="Full Name:" fontWeight="bold" />
+        <Label id="fullNameLabel" text="Loading..." />
+
+        <Label text="Email:" fontWeight="bold" />
+        <Label id="emailLabel" text="Loading..." />
+
+        <Button text="Logout" tap="logout" marginTop="20" />
+    </StackLayout>
+</Page>

@@ -1,0 +1,11 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <ActionBar title="Clothes App" />
+    <StackLayout padding="20" spacing="15">
+        <Label text="Authentication" fontSize="28" horizontalAlignment="center" />
+        <TextField id="full_name" hint="Full Name" />
+        <TextField id="email" hint="Email" />
+        <TextField id="password" hint="Password" secure="true" />
+        <Button id="loginButton" text="Login" tap="login" />
+        <Button id="registerButton" text="Register" tap="register" />
+    </StackLayout>
+</Page>

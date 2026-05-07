@@ -1,0 +1,34 @@
+<Page
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    loaded="pageLoaded">
+
+    <ActionBar title="Register" />
+
+    <StackLayout padding="20">
+
+        <Label
+            text="Register"
+            fontSize="30"
+            horizontalAlignment="center"
+            marginBottom="20" />
+
+        <TextField
+            id="full_name"
+            hint="Full Name" />
+
+        <TextField
+            id="email"
+            hint="Email" />
+
+        <TextField
+            id="password"
+            hint="Password"
+            secure="true" />
+
+        <Button
+            text="Register"
+            tap="register" />
+
+    </StackLayout>
+
+</Page>
