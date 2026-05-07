@@ -1,4 +1,4 @@
-# Clothes App — TP Programmation mobile multiplateforme
+# Clothes App 
 
 ## Membres de l’équipe
 - Djenabou Diallo
